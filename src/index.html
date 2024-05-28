@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body>
+    <div class="h-screen flex justify-center items-center">
+        <div class="">
+            <div class="flex gap-10 justify-center mb-10">
+                <div class="">
+                    <a href="#" class="bg-green-400 px-14 py-4 rounded-lg text-white cursor-pointer transition-all content-center flex">Login</a>
+
+                </div>
+                <div class="">
+                    <a href="#" class="bg-green-400 px-12 py-4 rounded-lg text-white cursor-pointer transition-all content-center flex">Register</a>
+                </div>
+            </div>
+            <div id="login" class="form-value form-box bg-green-400 p-8 rounded-lg shadow-md w-96 mt-0">
+                <form id="loginForm">
+                    <h2 class="text-2xl font-bold text-white mb-6">Login</h2>
+                    <div class="inputbox relative mb-4">
+                        <input type="text" id="username" required class="w-full h-12 bg-transparent border-b-2 border-white text-white outline-none focus:border-gray-300 mt-2">
+                        <label for="username" class="absolute left-0 transition-all text-white">Username</label>
+                    </div>
+                    <div class="inputbox relative mb-4">
+                        <input type="password" id="password" required class="w-full h-12 bg-transparent border-b-2 border-white text-white outline-none focus:border-gray-300 mt-2">
+                        <label for="password" class="absolute left-0 transition-all text-white">Password</label>
+                    </div>
+                    <button type="submit" value="Open" class="submit w-full h-10 bg-white rounded-full text-black font-semibold text-lg cursor-pointer">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
